@@ -1,75 +1,37 @@
-# Nuxt Minimal Starter
+# REVIEW WIDGET
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[DEMO LINK](https://shopiverse-nuxt.netlify.app/)
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+<div align="left">
+  <img src="https://img.shields.io/badge/Nuxt.js-00DC82?logo=nuxtdotjs&logoColor=black&style=for-the-badge" height="40" alt="nuxtjs logo"  />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="40" alt="tailwindcss logo"  />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=black&style=for-the-badge" height="40" alt="supabase logo"  />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white&style=for-the-badge" height="40" alt="prisma logo"  />
+  <img width="12" />
+  <img src="https://stripe.com/img/about/logos/logos/blue@2x.png" height="40" alt="stripe logo"  />
+</div>
 
-```bash
-# npm
-npm install
+### This is a simple application where users can browse products, add items to the cart, add their own products after logging in, and make purchases via Stripe
 
-# pnpm
-pnpm install
+---  
+<img src="https://img001.prntscr.com/file/img001/BrQlEb8FQnePaluLB4eVNw.png">  
 
-# yarn
-yarn install
+# How to Start the Application
 
-# bun
-bun install
-```
+1. Install dependencies:  
 
-## Development Server
+   ```bash
+   npm install
+   ```
 
-Start the development server on `http://localhost:3000`:
+2. Start the development server:  
 
-```bash
-# npm
-npm run dev
+   ```bash
+   npm run dev
+   ```
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
