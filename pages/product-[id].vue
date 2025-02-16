@@ -1,8 +1,10 @@
 <template>
-  <div>
+  <section
+    class="flex justify-center mt-4 bg-white md:py-16 dark:bg-gray-900 antialiased"
+  >
     <Loading v-if="pending" />
-    <ProductComp v-else :product="product" />
-  </div>
+    <ProductDetail v-else :product="product" />
+  </section>
 </template>
 
 <script setup>

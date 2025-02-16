@@ -18,7 +18,7 @@
 
     <div v-if="searchResults && searchInput" class="grid grid-cols-4 gap-4">
       <div v-for="product in searchResults">
-        <ProductComp :product="product" />
+        <ProductItem :product="product" />
       </div>
     </div>
   </div>

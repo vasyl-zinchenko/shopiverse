@@ -120,7 +120,7 @@ const signUp = async () => {
         full_name: userName.value,
         address: address.value,
       },
-      emailRedirectTo: 'https://shopiverse-nuxt.netlify.app/',
+      emailRedirectTo: '/',
     },
   });
 

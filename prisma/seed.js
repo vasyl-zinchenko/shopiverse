@@ -15,6 +15,8 @@ const seedProducts = async () => {
           image: product.image,
           category: product.category,
           price: product.price,
+          rating_rate: product.rating.rate,
+          rating_count: product.rating.count,
         },
       });
     }

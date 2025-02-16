@@ -1,6 +1,6 @@
 <template>
-  <div class="grid h-16 place-items-center">
-    <div class="p-4 border" id="checkout-page">
+  <div class=" grid h-16 place-items-center">
+    <div class="max-w-[1200px] p-4 border" id="checkout-page">
       <!-- Display a payment form -->
       <form @submit.prevent="handleSubmit" id="payment-form">
         <div id="payment-element">
@@ -68,7 +68,7 @@ async function handleSubmit() {
     elements,
     confirmParams: {
       // Make sure to change this to your payment completion page
-      return_url: 'https://shopiverse-nuxt.netlify.app/payment-success',
+      return_url: '/payment-success',
     },
   });
 
